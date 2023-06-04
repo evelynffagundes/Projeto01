@@ -1,0 +1,54 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+text-align: center; /*alinha o texto referente a outros elementos*/
+margin: 0;
+}
+
+#hero { /*alinha toda a caixa para ficar centralizado na tela*/
+  width: 592px;
+  margin: 0 auto 72px;
+}
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px; /* altura de linha*/
+ font-weight: normal; /*Força da fonte no h1 por padrao é negrito, essa propriedade retira o negrito*/
+ margin-bottom: 32px;
+}
+
+h1 span { /* nesse bloco aplica o negrito apenas no span do h1*/
+font-weight: bold;
+}
+
+
+span, a {
+  color:#FF9900;
+}
+
+p, footer {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+
+#footer a + a {  /*pega os dois a em referencia para aplicar o espaçamento*/
+margin-left: 28px;
+}
+
+#line {
+  width:568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #ECEFF2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
